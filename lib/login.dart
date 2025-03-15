@@ -109,8 +109,8 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                       onPressed: () {
                         if (_formKey.currentState!.validate()) {
-                          if (_username.text == "jaden" &&
-                              _password.text == "jaden") {
+                          if (_username.text == "fulan" &&
+                              _password.text == "fulan") {
                             ScaffoldMessenger.of(context).showSnackBar(
                               const SnackBar(
                                 content: Text('Login Berhasil'),
